@@ -1,5 +1,7 @@
 * {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -12,18 +14,50 @@ header {
     border: solid 2px red;
 }
 
-.banner {
-    width: 100%;
-    height: 800px;
-    background: url('../images/banner/banner1.png');
+.bg-image {
+    background: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
-    background-position: top center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
 }
 
-.banner-text {
+.banner-heading {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
     position: absolute;
-    top: 216px;
-    right: 230px;
+    top: 250px;
+    left: 1100px;
+    padding-right: 230px;
+
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    position: absolute;
+    top: 500px;
+    left: 1100px;
+    padding-right: 230px;
+
+}
+
+.banner-btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    position: absolute;
+    top: 600px;
+    left: 1100px;
+
 }
 
 /* Main */
@@ -37,13 +71,12 @@ header {
     margin-top: 130px;
     margin-left: 206px;
     margin-bottom: 130px;
-    border: solid 1px black;
 }
 
 .failure-text {
     margin-top: 270px;
     margin-bottom: 214px;
-    border: solid 1px black;
+
 }
 
 .failure-heading {
@@ -52,6 +85,7 @@ header {
     line-height: 47px;
     margin-right: 450px;
     margin-bottom: 24px;
+    padding-top: 100px;
 
 }
 
@@ -126,8 +160,17 @@ header {
 
 .always-keep {
     margin-top: 130px;
-    margin-bottom: 130px;
     text-align: center;
+}
+
+.always-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../images/watch.png);
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -137,8 +180,7 @@ header {
 footer {
     background-color: #151414;
     color: #F8F8F8;
-    margin-top: 130px;
-
+    margin-top: 100px;
 }
 
 
@@ -146,16 +188,15 @@ footer {
 
 .footer-container {
     display: flex;
-    margin-left: 230px;
-    margin-right: 230px;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 130px;
     justify-content: space-around;
 
 }
 
 .future {
-    margin-top: 100px;
-    margin-bottom: 130px;
-
+    padding-top: 50px;
 }
 
 .future-heading {
@@ -186,8 +227,7 @@ footer {
 
 
 .subscribe {
-    margin-top: 100px;
-    margin-bottom: 130px;
+    padding-top: 80px;
 }
 
 input {
