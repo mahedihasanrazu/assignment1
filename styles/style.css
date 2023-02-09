@@ -62,20 +62,28 @@ header {
 
 /* Main */
 
+.failure {}
+
 .my-failure {
     display: flex;
-    gap: 87px;
+    border: solid 1px red;
 }
 
 .failure-img {
-    margin-top: 130px;
-    margin-left: 206px;
-    margin-bottom: 130px;
+    padding-top: 130px;
+    padding-left: 206px;
+    padding-bottom: 130px;
+
+
+    border: solid 1px black;
 }
 
 .failure-text {
-    margin-top: 270px;
-    margin-bottom: 214px;
+    padding-top: 370px;
+    padding-bottom: 214px;
+    border: solid 1px red;
+    margin-left: 87px;
+
 
 }
 
@@ -83,9 +91,10 @@ header {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    margin-right: 450px;
+
+    padding-right: 450px;
     margin-bottom: 24px;
-    padding-top: 100px;
+    border: solid 1px black;
 
 }
 
@@ -93,8 +102,10 @@ header {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    margin-right: 322px;
+
+    padding-right: 322px;
     margin-bottom: 16px;
+    border: solid 1px black;
 
 }
 
@@ -103,7 +114,9 @@ header {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 8px;
-    margin-right: 389px;
+
+    padding-right: 390px;
+    border: solid 1px black;
 }
 
 .fa-solid {
@@ -117,7 +130,6 @@ header {
 
 /* My Plan */
 .my-plan-container {
-    border: solid 1px black;
     display: flex;
     gap: 100px;
     justify-content: center;
@@ -230,6 +242,10 @@ footer {
     padding-top: 80px;
 }
 
+.subs-heading {
+    padding-bottom: 31px;
+}
+
 input {
     border: 1px solid #FFFFFF;
     border-radius: 8px;
@@ -240,6 +256,7 @@ input {
     line-height: 21px;
     color: #F3F3F3;
     background: #151414;
+    margin-bottom: 16px;
 
 }
 
