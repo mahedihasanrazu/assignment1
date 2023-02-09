@@ -10,9 +10,7 @@ body {
 
 /* ----- Header ----- */
 
-header {
-    border: solid 2px red;
-}
+header {}
 
 .bg-image {
     background: url(../images/banner/banner1.png);
@@ -66,22 +64,18 @@ header {
 
 .my-failure {
     display: flex;
-    border: solid 1px red;
+
 }
 
 .failure-img {
     padding-top: 130px;
     padding-left: 206px;
     padding-bottom: 130px;
-
-
-    border: solid 1px black;
 }
 
 .failure-text {
     padding-top: 370px;
     padding-bottom: 214px;
-    border: solid 1px red;
     margin-left: 87px;
 
 
@@ -91,11 +85,8 @@ header {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-
     padding-right: 450px;
     margin-bottom: 24px;
-    border: solid 1px black;
-
 }
 
 .failure-description {
@@ -105,8 +96,6 @@ header {
 
     padding-right: 322px;
     margin-bottom: 16px;
-    border: solid 1px black;
-
 }
 
 .failure-checkmark {
@@ -114,9 +103,7 @@ header {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 8px;
-
     padding-right: 390px;
-    border: solid 1px black;
 }
 
 .fa-solid {
@@ -137,6 +124,7 @@ header {
     margin-left: 230px;
     margin-right: 230px;
     margin-top: 50px;
+    margin-bottom: 130px;
 }
 
 .my-plan-heading {
@@ -165,6 +153,37 @@ header {
     color: #737272;
 }
 
+
+/* Why You Should Learn Web Development  */
+
+.web {
+    background-color: #EBF5FB;
+}
+
+
+.web-container {
+    display: flex;
+
+    padding-top: 100px;
+    padding-bottom: 130px;
+    margin-left: 230px;
+    margin-right: 230px;
+    gap: 100px;
+}
+
+.web-heading {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    padding-bottom: 20px;
+}
+
+.web-description {
+    padding-right: 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
 
 
 
