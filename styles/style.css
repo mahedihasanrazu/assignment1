@@ -8,7 +8,7 @@ body {
     margin-top: 0px;
 }
 
-/* ----- Header ----- */
+/* <!-- -------------------- Header Start -------------------- --> */
 
 header {}
 
@@ -58,9 +58,16 @@ header {}
 
 }
 
-/* Main */
+/* -- -------------------- Header End -------------------- -- */
 
-.failure {}
+
+
+
+/* -- -------------------- Main Start -------------------- -- */
+
+
+
+/* -- -------------------- My failures of previous year Start -------------------- -- */
 
 .my-failure {
     display: flex;
@@ -111,11 +118,16 @@ header {}
 }
 
 
+/* -- -------------------- My failures of previous year End -------------------- -- */
 
 
 
 
-/* My Plan */
+
+
+
+/* -- -------------------- My Plans Start -------------------- -- */
+
 .my-plan-container {
     display: flex;
     gap: 100px;
@@ -154,7 +166,11 @@ header {}
 }
 
 
-/* Why You Should Learn Web Development  */
+
+/* -- -------------------- My Plans End -------------------- -- */
+
+
+/* -- -------------------- Why You Should Learn Web Development Start -------------------- -- */
 
 .web {
     background-color: #EBF5FB;
@@ -187,7 +203,13 @@ header {}
 
 
 
-/* Always Keep */
+/* -- -------------------- Why You Should Learn Web Development Start -------------------- -- */
+
+
+
+
+
+/* -- -------------------- Awlays keep a positive mindset Start -------------------- -- */
 
 .always-keep {
     margin-top: 130px;
@@ -230,8 +252,12 @@ header {}
     padding-left: 64px;
 }
 
+/* -- -------------------- Awlays keep a positive mindset End -------------------- -- */
 
-/* Footer */
+
+
+
+/* -- -------------------- Footer Start -------------------- -- */
 
 footer {
     background-color: #151414;
@@ -277,11 +303,6 @@ footer {
 
 
 
-
-
-
-
-
 .subscribe {
     padding-top: 80px;
 }
@@ -313,3 +334,5 @@ input {
     background: #FFFFFF;
     border-radius: 8px;
 }
+
+/* -- -------------------- Footer End -------------------- -- */
